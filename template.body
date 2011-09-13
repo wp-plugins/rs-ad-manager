@@ -1,0 +1,72 @@
+[if listingtype EQUALS Auction]
+  <table style="margin:auto;width:80%;">
+    <tr>
+      <td style="width:148px;text-align:center;vertical-align:middle;">
+        <a href="[url]"><img src="[galleryurl]"></a><br />
+        <div onclick="location.href='[url]';" style="font-size:80%;cursor: pointer; width:80%;margin: auto;margin-top:5px;text-align:center;background-color: #fafafa;border: 1px #d79900 solid;">Bid Now</div>
+      </td>
+      <td style="vertical-align:top;">
+        <table border="1">
+          <tr><td colspan="2"><span><a href="[url]"><b>[title]</b></a></span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">Current High Bid:</span></td><td><span style="font-size:80%;">$[currentprice]</span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">Bid Count:</span></td><td><span style="font-size:80%;">[bidcount]</span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">End Time:</span></td><td><span style="font-size:80%;">[endtime Y-m-d H:i:s T]<br />[ends]</span></td></tr>
+          <tr><td colspan="2"><span style="font-size:80%;"><a href="[url]"><b>Click Here for More Information or to Purchase ...</b></a></span></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+[end if]
+[if listingtype EQUALS AuctionWithBIN]
+  <table style="margin:auto;width:80%;">
+    <tr>
+      <td style="width:148px;text-align:center;vertical-align:middle;">
+        <a href="[url]"><img src="[galleryurl]"></a><br />
+        <div onclick="location.href='[url]';" style="font-size:80%;cursor: pointer; width:80%;margin: auto;margin-top:5px;text-align:center;background-color: #fafafa;border: 1px #d79900 solid;">Bid Now</div>
+      </td>
+      <td style="vertical-align:top;">
+        <table border="1">
+          <tr><td colspan="2"><span><a href="[url]"><b>[title]</b></a></span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">Current High Bid:</span></td><td><span style="font-size:80%;">$[currentprice]</span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">Bid Count:</span></td><td><span style="font-size:80%;">[bidcount]</span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">End Time:</span></td><td><span style="font-size:80%;">[endtime Y-m-d H:i:s T]<br />[ends]</span></td></tr>
+          <tr><td colspan="2"><span style="font-size:80%;"><a href="[url]"><b>Click Here for More Information or to Purchase ...</b></a></span></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+[end if]
+[if listingtype EQUALS FixedPrice]
+  <table style="margin:auto;width:80%;">
+    <tr>
+      <td style="width:148px;text-align:center;vertical-align:middle;">
+        <a href="[url]"><img src="[galleryurl]"></a><br />
+        <div onclick="location.href='[url]';" style="font-size:80%;cursor: pointer; width:80%;margin: auto;margin-top:5px;text-align:center;background-color: #fafafa;border: 1px #d79900 solid;">Buy Now</div>
+       </td>
+       <td style="vertical-align:top;">
+        <table border="1">
+          <tr><td colspan="2"><span><a href="[url]"><b>[title]</b></a></span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">Price:</span></td><td><span style="font-size:80%;">$[currentprice]</span></td></tr>
+          <tr><td colspan="2"><span style="font-size:80%;"><a href="[url]"><b>Click Here for More Information or to Purchase ...</b></a></span></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+[end if]
+[if listingtype EQUALS StoreInventory]
+  <table style="margin:auto;width:80%;">
+    <tr>
+      <td style="width:148px;text-align:center;vertical-align:middle;">
+        <a href="[url]"><img src="[galleryurl]"></a><br />
+        <div onclick="location.href='[url]';" style="font-size:80%;cursor: pointer; width:80%;margin: auto;margin-top:5px;text-align:center;background-color: #fafafa;border: 1px #d79900 solid;">Buy Now</div>
+       </td>
+       <td style="vertical-align:top;">
+        <table border="1">
+          <tr><td colspan="2"><span><a href="[url]"><b>[title]</b></a></span></td></tr>
+          <tr><td style="text-align:right;"><span style="font-size:80%;">Price:</span></td><td><span style="font-size:80%;">$[currentprice]</span></td></tr>
+          <tr><td colspan="2"><span style="font-size:80%;"><a href="[url]"><b>Click Here for More Information or to Purchase ...</b></a></span></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+[end if]
