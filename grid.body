@@ -1,0 +1,20 @@
+[if listingtype EQUALS Auction]
+<div class="rs_grid_float">
+<p><a href="[url]"><img src="[galleryurl]"><br /><b>[title]</b></a><br />High Bid: $[currentprice]<br />Ends: [ends]</p>
+</div>
+[end if]
+[if listingtype EQUALS AuctionWithBIN]
+<div class="rs_grid_float">
+<p><a href="[url]"><img src="[galleryurl]"><br /><b>[title]</b></a><br />High Bid: $[currentprice]<br />Ends: [ends]</p>
+</div>
+[end if]
+[if listingtype EQUALS FixedPrice]
+<div class="rs_grid_float">
+<p><a href="[url]"><img src="[galleryurl]"><br /><b>[title]</b></a><br />Price: $[currentprice]</p>
+</div>
+[end if]
+[if listingtype EQUALS StoreInventory]
+<div class="rs_grid_float">
+<p><a href="[url]"><img src="[galleryurl]"><br /><b>[title]</b></a><br />Price: $[currentprice]</p>
+</div>
+[end if]
