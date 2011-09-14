@@ -112,9 +112,9 @@ function rsadmanager_find($keywords, $count, $filter, $seller, $template)
   add_filter('wp_feed_cache_transient_lifetime', create_function( '$a', 'return 600;')); 
 
   if ($template == '') $template = 'template';
-  $templatepath = WP_PLUGIN_DIR . "/rsadmanager/$template.body";
-  $headerpath = WP_PLUGIN_DIR . "/rsadmanager/$template.header";
-  $footerpath = WP_PLUGIN_DIR . "/rsadmanager/$template.footer";
+  $templatepath = WP_PLUGIN_DIR . "/rs-ad-manager/$template.body";
+  $headerpath = WP_PLUGIN_DIR . "/rs-ad-manager/$template.header";
+  $footerpath = WP_PLUGIN_DIR . "/rs-ad-manager/$template.footer";
   @$templatefile = file_get_contents($templatepath);
   @$headerfile = file_get_contents($headerpath);
   @$footerfile = file_get_contents($footerpath);
