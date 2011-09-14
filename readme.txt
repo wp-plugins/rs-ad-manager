@@ -107,9 +107,10 @@ Please see: http://www.rogersmithsoftware.com/rsadmanager.html#advanced
 
 == Changelog ==
 
-= 1.0 =
-* Initial Release
-
 = 1.0.1 =
 * Fixed bad characters in readme.txt
 * Fixed problem with path to templates
+
+= 1.0 =
+* Initial Release
+

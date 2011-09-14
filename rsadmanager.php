@@ -3,7 +3,7 @@
 Plugin Name: RS Ad Manager
 Plugin URI: http://www.rogersmithsoftware.com/rsadmanager,html
 Description: Displays eBay products inside posts
-Version: 1.0
+Version: 1.0.1
 Author: Roger A. Smith
 Author URI: http://www.rogersmithsoftware.com/
 */
